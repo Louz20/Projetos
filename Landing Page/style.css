@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+body { 
+    font-size: 100%;
+    background:#009dc4;
+}
+
+.cabecalho-menu {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 26px;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    background-color:bisque;
+    font-family: 'Sarala', sans-serif;
+    padding: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 5px/20px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.2px solid #FFFFFF;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;  
+    font-size: 20px;
+}
+
+.conteudo-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dongle variant', Tofu;
+    color:#FFFFFF;
+    margin-top: 80px;
+    border-top: 0.1px solid #FFFFFF;
+    padding-top: 60px;
+}
